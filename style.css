@@ -1,0 +1,215 @@
+        body {
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Baloo Bhai 2', cursive;
+            height: 100%;
+        }
+        
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+        
+        .left img {
+            width: 120px;
+            height: 60px;
+            top: 20px;
+        }
+        
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 25px;
+        }
+        
+        .mid {
+            display: block;
+            width: 55%;
+            margin: 20px auto;
+        }
+        
+        .header {
+            background-color: blanchedalmond;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-size: 24px;
+            padding: 4px;
+        }
+        
+        .navbar li a {
+            color: black;
+            display: inline;
+            text-decoration: none;
+            padding: 15px 4px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+        
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 40px;
+            display: inline-block;
+        }
+        
+        .btn {
+            margin: 0px;
+            background-color: white;
+            padding: 4px 14px;
+            border: solid 2px black;
+            border-radius: 10px;
+            font-size: 50px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        
+        .btn:hover {
+            background-color: rgb(218, 145, 145);
+        }
+        
+        .home {
+            border: 2px solid black;
+            margin: 20px 20px;
+        }
+        
+        .home h1 {
+            font-size: 60px;
+            text-align: center;
+            color: brown;
+            font-family: 'Lobster', cursive;
+        }
+        
+        .container {
+            border: 2px solid blue;
+            padding: 75px;
+            margin: 105px 80px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        
+        .para {
+            background-color: burlywood;
+            padding: 45px 45px 60px;
+            margin: 20px 20px;
+        }
+        
+        .para h1 {
+            text-align: center;
+            font-family: 'Sigmar One', cursive;
+            font-size: 45px;
+            color: rgb(255, 80, 89);
+        }
+        
+        .para-1 {
+            display: flex;
+            text-align: center;
+            text-align-last: left;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Cabin', sans-serif;
+        }
+        
+        .home-image {
+            display: block;
+            width: 0%;
+            height: auto;
+            margin-left: 285px;
+            margin-right: 200px;
+        }
+        
+        p {
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Cabin', sans-serif;
+            line-height: 1.714em;
+            margin: 0 0 1.5em;
+            vertical-align: baseline;
+            text-align-last: left;
+            line-break: auto;
+            padding-left: 34px;
+        }
+        /* .screenshot img {
+    display: block;
+    width: 63%;
+    height: auto;
+    margin-left: 285px;
+    margin-right: 200px;
+} */
+        
+        .second {
+            top: 200px;
+        }
+        
+        p img {
+            vertical-align: top;
+            top: 200px;
+        }
+        
+        .para-2 h1 {
+            text-align: center;
+            font-family: 'Sigmar One', cursive;
+            font-size: 45px;
+            color: rgb(255, 80, 89);
+        }
+        
+        .form {
+            color: black;
+            padding-left: 200px;
+            font-size: 20px;
+            font-family: 'Cabin', sans-serif;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        
+        .btn-submit {
+            background-color: green;
+            font-size: 30px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        
+        .registration {
+            margin: 20px 20px;
+            background-color: rgb(209, 218, 224);
+            position: relative;
+            border: 2px solid black;
+            padding: 45px 45px 60px;
+        }
+        
+        form img {
+            padding: 10px 45px;
+            float: right;
+            width: 63%;
+            top: inherit;
+        }
+        
+        .show {
+            font-family: 'Cabin', sans-serif;
+            border: 2px solid black;
+            background-color: lightcyan;
+            margin: 20px 20px;
+        }
+        
+        .show h1 {
+            text-align: center;
+        }
+        
+        .table {
+            font-size: 25px;
+            border-color: black;
+        }
